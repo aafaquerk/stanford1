@@ -235,7 +235,10 @@ html {
     footer {
         max-width: 1180px;
         margin: 0 auto;
-
+        p {
+            font-size: 14px;
+            color:$white;
+          }  
         .colophon {
             width: 80%;
             float: left;
