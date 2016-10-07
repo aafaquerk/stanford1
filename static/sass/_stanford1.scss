@@ -12,16 +12,16 @@
 //Main Color Variables
 $main-color: #0d3862; //Ashoka Blue
 $dark-color: #c4122f; //Ashoka Red
-$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
-$bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+$light-color: #0d3862; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$bg-color: #6db6ff; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
-$main-bg: #822537;
+$main-bg: #c4122f;
 $main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
 $main-bg-25: lighten($main-bg, 25%); 
 
 //Secondary Color Variables
-$secondary: #e2e2e2;
+$secondary: #0d3862;
 $secondary-50: lighten($secondary, 9%);
 $secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
 
@@ -29,13 +29,13 @@ $secondary-25: lighten($secondary, 20%); //Important Heading BG Color
 $gray: #f9f9f9; //Main Text Color
 $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
-$gray-3: #e9e9e9; //Block/Course BG Color
+$gray-3: #d3d3d3; //Block/Course BG Color
 $gray-2: #f2f2f2;
 $gray-1: #fbfbfb; //Main BG Color
 $white: $gray-1;
 
-$black: #2e2e2e;
-$black-80: #585858;
+$black: #0a0002;
+$black-80: #474747;
 
 
 
