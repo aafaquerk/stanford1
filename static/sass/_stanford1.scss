@@ -77,7 +77,7 @@ $faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
-$base-font-color: $white;
+$base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
@@ -119,8 +119,8 @@ $action-primary-active-focused-fg: $gray-2;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $gray-75;
-$action-prmary-disabled-fg: $gray-1;
+$action-primary-disabled-bg: $white;
+$action-prmary-disabled-fg: $white;
 
 
 
