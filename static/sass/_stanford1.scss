@@ -62,9 +62,9 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
 $header-image: none;
-$header-bg: transparentize(lighten($grey, 18.5%), .25);
+$header-bg: transparentize(lighten($gray, 18.5%), .25);
 $courseware-header-image: none;
-$courseware-header-bg: transparentize(lighten($grey, 18.5%), .25);
+$courseware-header-bg: transparentize(lighten($gray, 18.5%), .25);
 $footer-bg: $secondary;
 $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
@@ -83,7 +83,7 @@ $very-light-text: $gray-1;
 
 $link-color: $dark-color;
 $link-color-d1: $dark-color;
-$link-hover: $grey-1;
+$link-hover: $gray-1;
 $site-status-color: $grey-1r;
 
 $header-graphic-super-color: $dark-color;
