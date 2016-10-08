@@ -93,14 +93,14 @@ $header-link-color: $dark-color;
 $header-link-hover: $light-color;
 
 $button-color: $main-color;
-$button-archive-color: $gray-3;
+$button-archive-color: $dark-color;
 
 $shadow-color: $gray;
 
 // actions
 $button-bg-image: none;
-$button-bg-color: $gray-3;
-$button-bg-hover-color: $gray-1;
+$button-bg-color: $main-color;
+$button-bg-hover-color: $dark-color;
 
 // actions - primary
 $action-primary-bg: $main-color;
@@ -119,8 +119,8 @@ $action-primary-active-focused-fg: $gray-2;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $white;
-$action-prmary-disabled-fg: $white;
+$action-primary-disabled-bg: $main-color;
+$action-prmary-disabled-fg: $dark-color;
 
 
 
@@ -141,8 +141,8 @@ $action-secondary-active-focused-fg: $gray-75;
 $action-secondary-active-focused-shadow: none;
 
 // disabled
-$action-secondary-disabled-bg: $gray-3;
-$action-secondary-disabled-fg: $gray;
+$action-secondary-disabled-bg: $gray;
+$action-secondary-disabled-fg: $gray-3;
 
 //
 
@@ -187,8 +187,8 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 $homepage-bg-image: url('../themes/stanford1/images/Banner.jpg');
 
-$login-banner-image: none;
-$register-banner-image: none;
+$login-banner-image: url('../themes/stanford1/images/Banner.jpg');
+$register-banner-image: url('../themes/stanford1/images/Banner.jpg');
 
 $video-thumb-url: '../themes/stanford1/images/edx.png';
 
