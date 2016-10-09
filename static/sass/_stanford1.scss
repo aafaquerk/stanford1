@@ -239,10 +239,10 @@ html {
         .colophon {
             width: 80%;
             float: left;
+            height: 15px;
 
             .nav-colophon li {
                 display: inline-block;
-                height: 35px;
                 float: left;
                 margin: 0 20px 20px 0;
             }
@@ -258,6 +258,10 @@ html {
         font-size: 11px; 
         clear: both;
         margin-top: 5px;
+        
+        .p{
+            margin-top:8px;
+        }
     }
 }
 
