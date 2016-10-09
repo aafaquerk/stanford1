@@ -84,13 +84,13 @@ $very-light-text: $black-80;
 $link-color: $dark-color;
 $link-color-d1: $dark-color;
 $link-hover: lighten($dark-color,20%);
-$site-status-color: $gray-1;
+$site-status-color: $black;
 
 $header-graphic-super-color: $dark-color;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $gray-1;
-$header-link-hover: $gray-2;
+$header-link-color: $dark-color;
+$header-link-hover: lighten($dark-color,20%);
 
 $button-color: $main-color;
 $button-archive-color: $dark-color;
@@ -104,7 +104,7 @@ $button-bg-hover-color: $dark-color;
 
 // actions - primary
 $action-primary-bg: $main-color;
-$action-primary-fg: $gray-2;
+$action-primary-fg: $dark-color;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
@@ -135,7 +135,7 @@ $action-secondary-focused-fg: $gray;
 
 // current or active navigation item
 $action-secondary-active-bg: $white;
-$action-secondary-active-fg: $gray;
+$action-secondary-active-fg: $black;
 $action-secondary-active-shadow: none;
 $action-secondary-active-focused-fg: $gray-75;
 $action-secondary-active-focused-shadow: none;
