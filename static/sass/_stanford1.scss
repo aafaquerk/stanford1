@@ -52,7 +52,6 @@ $serif: $theme-serif-font, $serif;
 
 
 
-
 //-----------------
 //  Theme Element Assignments
 //-----------------
@@ -62,10 +61,10 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
 $header-image: none;
-$header-bg: transparentize(lighten($gray, 18.5%), .25);
+$header-bg: transparentize(lighten($secondary, 18.5%), .25);
 $courseware-header-image: none;
-$courseware-header-bg: transparentize(lighten($gray, 18.5%), .25);
-$footer-bg: $secondary;
+$courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
+$footer-bg: $secondary-25;
 $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -79,32 +78,32 @@ $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
 $base-font-color: $black;
 $lighter-base-font-color: $black-80;
-$very-light-text: $black-80;
+$very-light-text: $gray-1;
 
 $link-color: $dark-color;
 $link-color-d1: $dark-color;
-$link-hover: lighten($dark-color,20%);
-$site-status-color: $black;
+$link-hover: $light-color;
+$site-status-color: $bg-color;
 
 $header-graphic-super-color: $dark-color;
 $header-graphic-sub-color: $lighter-base-font-color;
 
 $header-link-color: $dark-color;
-$header-link-hover: lighten($dark-color,20%);
+$header-link-hover: $light-color;
 
 $button-color: $main-color;
-$button-archive-color: $dark-color;
+$button-archive-color: $gray-3;
 
 $shadow-color: $gray;
 
 // actions
 $button-bg-image: none;
-$button-bg-color: $main-color;
-$button-bg-hover-color: $dark-color;
+$button-bg-color: $gray-3;
+$button-bg-hover-color: $gray-1;
 
 // actions - primary
 $action-primary-bg: $main-color;
-$action-primary-fg: $dark-color;
+$action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
@@ -119,8 +118,8 @@ $action-primary-active-focused-fg: $gray-2;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $main-color;
-$action-prmary-disabled-fg: $dark-color;
+$action-primary-disabled-bg: $gray-75;
+$action-prmary-disabled-fg: $gray-1;
 
 
 
@@ -134,15 +133,15 @@ $action-secondary-focused-bg: $secondary-50;
 $action-secondary-focused-fg: $gray;
 
 // current or active navigation item
-$action-secondary-active-bg: $white;
-$action-secondary-active-fg: $black;
+$action-secondary-active-bg: $secondary-50;
+$action-secondary-active-fg: $gray;
 $action-secondary-active-shadow: none;
 $action-secondary-active-focused-fg: $gray-75;
 $action-secondary-active-focused-shadow: none;
 
 // disabled
-$action-secondary-disabled-bg: $gray;
-$action-secondary-disabled-fg: $gray-3;
+$action-secondary-disabled-bg: $gray-3;
+$action-secondary-disabled-fg: $gray;
 
 //
 
