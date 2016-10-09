@@ -79,18 +79,18 @@ $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
 $base-font-color: $black;
 $lighter-base-font-color: $black-80;
-$very-light-text: $gray-1;
+$very-light-text: $black-80;
 
 $link-color: $dark-color;
 $link-color-d1: $dark-color;
-$link-hover: $gray-1;
+$link-hover: lighten($dark-color,20%);
 $site-status-color: $gray-1;
 
 $header-graphic-super-color: $dark-color;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $dark-color;
-$header-link-hover: $light-color;
+$header-link-color: $gray-1;
+$header-link-hover: $gray-2;
 
 $button-color: $main-color;
 $button-archive-color: $dark-color;
