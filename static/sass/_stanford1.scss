@@ -12,7 +12,7 @@
 //Main Color Variables
 $main-color: #0d3862; //Ashoka Blue
 $dark-color: #c4122f; //Ashoka Red
-$light-color: lighten($dark-color,50%); //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$light-color: lighten($dark-color,15%); //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #6db6ff; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
@@ -82,7 +82,7 @@ $very-light-text: $gray-1;
 
 $link-color: $dark-color;
 $link-color-d1: $dark-color;
-$link-hover: $light-color;
+$link-hover: $dark-color;
 $site-status-color: $bg-color;
 
 $header-graphic-super-color: $dark-color;
@@ -157,7 +157,7 @@ $homepage__header--gradient__color--bravo: $secondary-25;
 $homepage__header--background: $secondary-25;
 $dashboard-profile-header-image: none;
 $dashboard-profile-header-color: $secondary-25;
-$dashboard-profile-color: $gray-3;
+$dashboard-profile-color: $black;
 $dot-color: $main-bg-60;
 
 $course-bg-color: $gray-3;
