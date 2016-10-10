@@ -12,9 +12,8 @@ from openedx.core.djangolib.markup import HTML
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
-            <h1>${_(HTML("Welcome to <strong>AshokaX!"}</h1>
-            <p>${_("Online Learning platform of the"<strong>{university_name}</strong>")).format(university_name="Ashoka University"))}</p>
-          % endif
+            <h1>${Text(_(u"Welcome to the Open edX{registered_trademark} platform!")).format(registered_trademark=HTML("<sup style='font-size: 65%'>&reg;</sup>"))}</h1>
+            <p>${_("It works! This is the default homepage for this Open edX instance.")}</p>
         </div>
         % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
           <div class="course-search">
