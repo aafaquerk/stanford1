@@ -281,3 +281,18 @@ section.tos {
         margin: 50px 0;
     }
 }
+
+//-------
+//Main Styling
+//------
+.home>header .title{
+    box-shadow: none;
+    background:none;
+   
+    .heading-group h1{
+        color: $white;
+    }
+    .heading-group p{
+        color: $white;
+    }
+}
