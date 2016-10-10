@@ -287,12 +287,12 @@ section.tos {
 //------
 .home>header .title{
     box-shadow: none;
-    background:none;
+    background: transparent;
    
     .heading-group h1{
         color: $white;
     }
-    .heading-group p{
+    .heading-group p, section.outside-app h1{
         color: $white;
     }
 }
